@@ -73,3 +73,14 @@ print(3 < 5 or 7 < 5)
 # 결과: False
 print(not 3 < 5)
 
+# ---------------------------------
+# 멤버 연산자
+
+# 기호: in
+# 의미: 포함
+# 결과: True
+print('c' in 'cat')
+# 기호: not in
+# 의미: 미포함
+# 결과: False
+print('c' not in 'cat')
