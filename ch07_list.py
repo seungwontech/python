@@ -60,7 +60,7 @@ print(c_list.count('a'))
 print(c_list.index('b'))
 # 결과: 1
 
-# 리스트복사
+# 리스트 복사
 a_list = c_list.copy()
 print(a_list)
 # 결과: ['c', 'b', 'a', 'a']
