@@ -59,3 +59,8 @@ print(c_list.count('a'))
 # 어떤 값이 어디에 위치했는지
 print(c_list.index('b'))
 # 결과: 1
+
+# 리스트복사
+a_list = c_list.copy()
+print(a_list)
+# 결과: ['c', 'b', 'a', 'a']
