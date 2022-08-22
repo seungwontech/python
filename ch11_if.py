@@ -1,7 +1,9 @@
 a = 'c'
 
 if a == 'a':
-    print('o')
+    print(a)
+elif a == 'c':
+    print(a)
 else:
-    print('x')
+    print(a)
 
