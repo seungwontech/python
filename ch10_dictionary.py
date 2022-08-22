@@ -1,5 +1,6 @@
 # key value
 # key 중복안됨
+# 파이썬 3.7 이상 순서보장
 
 person = {'이름': '홍길동', '키': 160}
 print(person['이름'], person['키'])
