@@ -10,3 +10,7 @@ for i in range(10):
 for i in range(1, 10, 2):
     print(i)
 # 결과: 1, 3, 5, 7, 9
+
+for i in range(1, 10, 3):
+    print(i)
+# 결과: 1, 4, 7
