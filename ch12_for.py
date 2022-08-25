@@ -42,3 +42,19 @@ a = 'python'
 for i in a:
     print(i, end=' ')
 # 결과: p y t h o n
+
+
+# 반복문 탈출 break
+a_list = ['첫째', '둘째', '셋째', '넷째']
+for i in a_list:
+    print(i)
+    if i == '둘째':
+        print('break')
+        break
+
+# 반복문 건너뛰기 continue
+for i in a_list:
+    print(i)
+    if i == '셋째':
+        print('continue')
+        continue
