@@ -35,3 +35,17 @@ def test_sum(a, b):
 
 print(test_sum(1, 2))
 # 결과: 3
+
+
+# 기본값 설정
+def test_function(a=0):
+    if a != 0:
+        return a
+    else:
+        return a
+
+a = 100
+print(test_function(a));
+# 결과: 100
+print(test_function());
+# 결과: 0
