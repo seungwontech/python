@@ -11,6 +11,10 @@ max_result = max(3, 1, 2)
 print(max_result)
 # 결과: 3
 
+# eval()
+a = "1+4*2"
+print(eval(a))
+
 # sorted()
 sorted_result = sorted([5, 34, 2, 6, 78, 1])
 print(sorted_result)
